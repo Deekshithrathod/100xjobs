@@ -6,7 +6,7 @@ const SearchBox = () => {
 		<div className="mt-8">
 			<div className="w-full bg-red-200  h-36 rounded-lg relative">
 				<Image
-					src="/backgroundimg.png"
+					src="/backgroundImg.png"
 					alt="logo"
 					className="rounded-lg"
 					fill
