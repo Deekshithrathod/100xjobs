@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { roboto } from "@/lib/fonts";
 import Header from "@/components/header";
 import MaxWidthWrapper from "@/components/max-width-wrapper";
 import Footer from "@/components/footer";
@@ -18,7 +17,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${roboto.className} bg-[#F6F7FB] bg-no-repeat min-h-screen relative`}>
+				className={`font-roboto bg-[#F6F7FB] bg-no-repeat min-h-screen relative`}>
 				<MaxWidthWrapper>
 					<Header />
 					<main className="pb-20">{children}</main>

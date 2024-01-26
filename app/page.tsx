@@ -1,8 +1,7 @@
-import MaxWidthWrapper from "@/components/max-width-wrapper";
+import Checkbox from "@/components/checkbox";
+import JobCard from "@/components/job-card";
+import LocationSearch from "@/components/loc-search";
 import SearchBox from "@/components/search-box";
-import { poppins } from "@/lib/fonts";
-import { Briefcase, Workflow } from "lucide-react";
-import Image from "next/image";
 
 export default function Home() {
 	const imageLoader = ({
@@ -19,6 +18,14 @@ export default function Home() {
 	return (
 		<div>
 			<SearchBox />
+			<Checkbox />
+			<LocationSearch />
+			<JobCard />
+			<JobCard />
+			<JobCard />
+			<JobCard />
+			<JobCard />
+			<JobCard />
 		</div>
 	);
 }

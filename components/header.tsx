@@ -2,9 +2,9 @@ import { poppins } from "@/lib/fonts";
 
 const Header = () => {
 	return (
-		<nav className="bg-transparent">
-			<h1 className={`text-2xl font-light ${poppins.className} bg-transparent`}>
-				<span className="font-bold">GitHub </span>Jobs
+		<nav>
+			<h1 className={`text-2xl leading-normal font-light ${poppins.className}`}>
+				<span className="font-bold">100x</span> Jobs
 			</h1>
 		</nav>
 	);
